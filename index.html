@@ -3,82 +3,148 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sidebar with Profile Image</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Hacker Profile</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/echarts/5.2.2/echarts.min.js"></script>
+
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            display: flex;
+            height: 100vh;
+            margin: 0;
+        }
+        .sidebar {
+            width: 250px;
+            background-color: #f8f9fa;
+            padding: 15px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .main-content {
+            flex: 1;
+            padding: 20px;
+        }
+        .footer {
+            height: 400px;
+            background-color: #f1f1f1;
+            padding: 20px;
+            margin-top: auto;
+        }
+    </style>
+      <style>
+        #main {
+            width: 100%;
+            height: 600px;
+            background-color: black;
+            color:white;
+        }
+    </style>
 </head>
-  <style>
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    display: flex;
-}
-
-.sidebar {
-    width: 250px;
-    height: 100vh;
-    background-color: #333;
-    color: #fff;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 20px;
-}
-
-.profile {
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-.profile-img {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    object-fit: cover;
-    margin-bottom: 10px;
-}
-
-nav ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-nav ul li {
-    margin: 10px 0;
-}
-
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 18px;
-}
-
-nav ul li a:hover {
-    text-decoration: underline;
-}
-
-.content {
-    flex-grow: 1;
-    padding: 20px;
-}
-    
-  </style>
 <body>
+
     <div class="sidebar">
-        <div class="profile">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSO_KKVgCZcRVnSMQqSnQajzd6ds064G_j3JQ&s" alt="Profile Image" class="profile-img">
-            <h2>John Doe</h2>
+        <div>
+            <h2>My Profile</h2>
+            <p>All Rights Reserved</p>
         </div>
-        <nav>
+        <div>
+            <h4>Profile</h4>
+            <p>Hi there, I'm [Your Name] 👋</p>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Contact</a></li>
+                <li>💼 Current Role: [Your Current Job/Role]</li>
+                <li>🌱 Learning: [What you're currently learning]</li>
+                <li>📫 Reach me at: [Your Email Address]</li>
+                <li>💬 Ask me about: [Your Expertise or Interests]</li>
+                <li>⚡ Fun fact: [A fun fact about you]</li>
             </ul>
-        </nav>
+        </div>
     </div>
-    <div class="content">
-        <!-- Main content goes here -->
+
+    <div class="main-content">
+        <h3>Hacker Badges</h3>
+        <img src="https://img.shields.io/github/stars/username/repo" alt="GitHub Stars">
+        <img src="https://img.shields.io/github/forks/username/repo" alt="GitHub Forks">
+        <img src="https://img.shields.io/github/followers/username?label=Followers" alt="GitHub Followers">
+        <img src="https://img.shields.io/github/contributors/username/repo" alt="Contributions">
+        <img src="https://img.shields.io/github/languages/top/username/repo" alt="Languages">
+        <img src="https://img.shields.io/github/issues/username/repo" alt="GitHub Issues">
+
+        <h3>Bootstrap Profile Card</h3>
+        <div class="card" style="width: 18rem;">
+            <div class="card-body">
+                <h5 class="card-title">Hacker Profile</h5>
+                <h6 class="card-subtitle mb-2 text-muted">Info</h6>
+                <p class="card-text">Hacker status: Elite</p>
+                
+                
+                
+                
+              <div id="main"></div>
+
+    <script>
+        var chart = echarts.init(document.getElementById('main'));
+
+        var option = {
+            title: {
+                text: 'Trade Signals'
+            },
+            tooltip: {},
+            xAxis: {
+                data: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
+            },
+            yAxis: {},
+            series: [{
+                name: 'Buy',
+                type: 'line',
+                data: [10, 15, 9, 18, 11, 13, 17, 14, 20, 15, 12, 19],
+                lineStyle: {
+                    color: 'blue'
+                }
+            }, {
+                name: 'Sell',
+                type: 'line',
+                data: [20, 18, 22, 15, 19, 21, 16, 23, 25, 19, 17, 24],
+                lineStyle: {
+                    color: 'red'
+                }
+            }]
+        };
+
+      
+          
+                
+             
+        chart.setOption(option);
+    </script>   
+                
+                
+                
+                
+                <div class="d-flex justify-content-between">
+                    <button class="btn btn-primary">Trade Graph</button>
+                    <button class="btn btn-success">Call</button>
+                    <button class="btn btn-danger">Put</button>
+                </div>
+            </div>
+        </div>
     </div>
+
+    <div class="footer">
+        <h3>GitHub Links</h3>
+        <ul>
+            <li><a href="https://github.com/">Link 1</a></li>
+            <li><a href="https://github.com/">Link 2</a></li>
+            <li><a href="https://github.com/">Link 3</a></li>
+            <li><a href="https://github.com/">Link 4</a></li>
+            <li><a href="https://github.com/">Link 5</a></li>
+            <li><a href="https://github.com/">Link 6</a></li>
+            <li><a href="https://github.com/">Link 7</a></li>
+        </ul>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
