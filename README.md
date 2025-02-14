@@ -58,10 +58,8 @@ As for high-ranked hacker badges on GitHub, you can showcase your achievements a
    ![Languages](https://img.shields.io/github/languages/top/username/repo)
    ```
 
-6. **Issues Badge**: Displays the number of open and closed issues.
-   ```markdown
    ![GitHub Issues](https://img.shields.io/github/issues/username/repo)
-   ```
+
 
 Remember to replace `username/repo` with your actual GitHub username and repository name. These badges can make your profile README visually appealing and informative.
 
