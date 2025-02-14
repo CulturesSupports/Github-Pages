@@ -47,13 +47,3 @@ Feel free to adjust it or change it to suit your style!
 
    ![GitHub Issues](https://img.shields.io/github/issues/username/repo)
 
-
-Remember to replace `username/repo` with your actual GitHub username and repository name. These badges can make your profile README visually appealing and informative.
-
-Need more help with other sections? Just let me know!
-hugo new posts/first-post.md
-
-echo "content/posts/first-post.md created. Edit the file to add content."
-
-# Run the development server
-hugo server -D
