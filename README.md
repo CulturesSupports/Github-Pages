@@ -1,34 +1,7 @@
 # culturessupports.github.io
-javascripts blog jekyll
 
+A Mini Starter Page For Github Pages
 
-
-```markdown
-```
-                              ______
-                         _.-'`      `'-._
-                      .-'                '-.
-                    .'                        '.
-                   /        _.-'''''-._         \
-                  /        '          |         ;|
-                  |       '            |        ||       __.....__..-\\
-                  |       '            |        ||--'''````          \\
-                  ;        \ _.-'''-._ |        ||                    ||
-                    ;                 ;         /_..---.-.           ||
-                    '.              /     __.-'         `'.          ||
-                      '.          /   .''                .\         ||
-                        '-.__    /  .'                     `.      .||
-                            .'''''-.                        /'-.    ||  _...
-                          .'        `''-._                /.'   \   ||-'    \
-                         /                 `'.           -'      ;'-'        :
-                          `,    __             \     _.'      _..'         .-'
-                            `-.__  `'.       .-'`..-'    _..''`       _..-'
-                                `-._  `'-..-'     _..--''         _..''
-                                    `'-.                  _.-'''''`
-                                        '-.__..    __..-'
-```
-```
-Feel free to adjust it or change it to suit your style!
 
 
    ![GitHub Stars](https://img.shields.io/github/stars/username/repo)
