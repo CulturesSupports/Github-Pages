@@ -21,6 +21,7 @@ A Mini Starter Page For Github Pages
    ![GitHub Issues](https://img.shields.io/github/issues/username/repo)
 
 
+<p> some cool background images for background </p>
 
 
 ![image](https://github.com/user-attachments/assets/5397d1c6-42d0-4b98-8b4f-fc70b723a67b)
