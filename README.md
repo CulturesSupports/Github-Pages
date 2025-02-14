@@ -24,6 +24,8 @@ A Mini Starter Page For Github Pages
 <p> some cool background images for background </p>
 
 
-![image](https://i.gifer.com/LSsT.gif))
+![image](https://i.gifer.com/LSsT.gif)
 
-https://i.gifer.com/LSsT.gif
+
+![image](https://i.pinimg.com/originals/55/89/4d/55894db3d808eab28fec7fc9a0825654.gif)
+
