@@ -34,3 +34,4 @@ A Mini Starter Page For Github Pages
 
 
 
+![Terror Cowboy GIF](assets/funny-cat.gif)
